@@ -1,0 +1,45 @@
+@import "variables.css";
+
+
+html, body {
+  background-color: var(--bg-color-0);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  width: 100vw;
+  background-color: var(--bg-color-2); 
+}
+header {
+  border-bottom: 1px solid var(--bg-color-5);
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+}
+header li {
+  display: inline-block;
+}
+a {
+  color: var(--a-color);
+}
+a:hover {
+  color: var(--a-color-hover);
+}
+a:visited {
+  color: var(--a-color-visit);
+}
+section {
+  margin: 2.5rem 1.5rem;
+}
+
+
+code {
+  background-color: var(--bg-color-5);
+}
+pre code {
+  border: 1px solid var(--text-color);
+  border-radius: .6em;
+  padding: .4em;
+}

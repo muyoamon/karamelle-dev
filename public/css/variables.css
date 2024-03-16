@@ -1,0 +1,15 @@
+/*default dark*/
+:root {
+  /* text */
+  --text-color:     #fff;
+  --a-color:        #ff8000;
+  --a-color-hover:  #ff6c00;
+  --a-color-visit:  #ffac00;
+  /* background color */
+  --bg-color-0: #000;
+  --bg-color-1: #0a0a0a;
+  --bg-color-2: #111;
+  --bg-color-3: #1a1a1a;
+  --bg-color-4: #222;
+  --bg-color-5: #2f2f2f;
+}
